@@ -5838,4 +5838,12 @@ img {
 	/* background: -webkit-linear-gradient(-30deg, #052157 0%, #91039f 100%); */
 }
 
+
 /* Newsletter Started */
+.logo {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 26px;
+	margin: 0;
+	color: Black;
+	font-weight: bold;
+}
