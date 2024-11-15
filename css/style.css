@@ -5767,7 +5767,7 @@ img {
 	height: auto;
 }
 
-.section-title h2 {
+.newsletter .section-title h2 {
 	font-size: 36px;
 	font-weight: 700;
 	background-image: -webkit-linear-gradient(-30deg, #052157 0%, #91039f 100%);
