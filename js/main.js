@@ -320,3 +320,5 @@
 	e.preventDefault();
 	document.querySelector('.subscription').classList.add('done');
   });
+
+  
