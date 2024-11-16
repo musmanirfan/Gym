@@ -5543,7 +5543,7 @@ div#header-sticky {
 	div#header-sticky {
 		border: none !important;
 		background: white;
-		height: 100px;
+		height: 60px;
 	}
 
 	.second-menu {
@@ -5559,9 +5559,8 @@ div#header-sticky {
 
 	.responsive {
 		float: right;
-		display: block;
+		display: flex;
 		cursor: pointer;
-		margin-top: -70px !important;
 	}
 
 	.responsive i {
@@ -5916,6 +5915,13 @@ img {
 				100% 46%,
 				100% 100%,
 				0% 100%);
+	}
+}
+
+@media (max-width: 768px) {
+	.products .content h2 {
+		font-size: 4em;
+		/* Smaller font size for mobile */
 	}
 }
 
