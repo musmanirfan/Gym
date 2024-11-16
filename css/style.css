@@ -3223,7 +3223,7 @@ div.single-cta:last-child {
 }
 
 .s-cta-btn .btn {
-	background: #383838;
+	background: #FFB500;
 	color: #fff;
 	margin-top: 10px;
 }
@@ -5392,14 +5392,14 @@ header.header-area {
 	color: #fff;
 	transition: 0.5s;
 	text-transform: uppercase;
-	margin-bottom: 5px;
+	margin-bottom: 15px !important;
 	font-size: 16px !important;
-	transform: translateY(200px);
+	transform: translateY(200px) !important;
 	transition-delay: 0.3s;
 }
 
 .container-image .box:hover .content h2 {
-	transform: translateY(0px);
+	transform: translateY(0px) !important;
 }
 
 .container-image .box .content p {
@@ -5839,7 +5839,7 @@ img {
 }
 
 
-/* Newsletter Started */
+/* Newsletter ended */
 .logo {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 26px;
@@ -5862,7 +5862,7 @@ img {
 /* About page started */
 /* Banner styling started */
 
-.pro-heading {
+.products .pro-heading {
 	display: flex;
 	background-image: url(../img/bg/);
 	min-height: 40vh;
@@ -5870,23 +5870,23 @@ img {
 	justify-content: center;
 }
 
-.content {
+.products .content {
 	position: relative;
 }
 
-.content h2 {
+.products .content h2 {
 	color: #fff;
 	font-size: 7em;
 	position: absolute;
 	transform: translate(-50%, -50%);
 }
 
-.content h2:nth-child(1) {
+.products .content h2:nth-child(1) {
 	color: transparent;
 	-webkit-text-stroke: 2px #000000;
 }
 
-.content h2:nth-child(2) {
+.products .content h2:nth-child(2) {
 	color: #241f29;
 	animation: animate 4s ease-in-out infinite;
 }
