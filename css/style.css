@@ -5516,14 +5516,8 @@ div#header-sticky {
 	color: #FFB500;
 }
 
-.head-logo {
-	width: 50% !important;
-}
-
 @media only screen and ((max-width: 767px)) {
-	.head-logo {
-		width: 100px !important;
-	}
+
 
 	.second-menu {
 		padding-left: 0px !important;
@@ -5554,7 +5548,7 @@ div#header-sticky {
 	.sticky-menu {
 		top: 0;
 		left: 0;
-		width: 100%;
+		width: 80% !important;
 	}
 
 	.responsive {
