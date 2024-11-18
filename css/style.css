@@ -34,6 +34,10 @@ body {
 	font-weight: normal;
 	color: #687068;
 	font-style: normal;
+	max-width: 98vw !important;
+	overflow-x: hidden !important;
+
+
 }
 
 .img {
@@ -293,7 +297,7 @@ label {
 	background: #FFB500;
 	height: 45px;
 	width: 45px;
-	right: 50px;
+	right: 80px;
 	bottom: 77px;
 	color: #fff;
 	font-size: 20px;
@@ -5885,7 +5889,6 @@ img {
 
 .products .pro-heading {
 	display: flex;
-	background-image: url(../img/bg/);
 	min-height: 40vh;
 	align-items: center;
 	justify-content: center;
